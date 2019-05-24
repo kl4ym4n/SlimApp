@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block head %}
+    <meta charset="utf-8"/>
+    <title>Slim App</title>
+    <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{base_url}}/css/styles.css">
+    {% endblock %}
+</head>
+<body>
+<div id="content">
+    <div class="btn-group" role="group" aria-label="menu">
+        <a href={{path_for('about')}} role="button" class="btn btn-menu-button">About Us</a>
+        {% if session.user_id  %}
+            <a href={{path_for('show.dashboard')}} role="button" class="btn btn-menu-button">Admin Dashboard</a>
+        {% endif %}
+        {% if not session.user_id  %}
+            <a href={{path_for('show.login')}} role="button" class="btn btn-menu-button">Login</a>
+        {% endif %}
+        {% if not session.user_id  %}
+            <a href={{path_for('show.register')}} role="button" class="btn btn-menu-button">Sign up</a>
+        {% endif %}
+        {% if session.user_id  %}
+            <a href={{path_for('logout')}} role="button" class="btn btn-menu-button">Logout</a>
+        {% endif %}
+    </div>
+    {% block content %}
+    {% endblock %}
+</div>
+<div id="footer">
+    {% block footer %}
+    {% endblock %}
+</div>
+</body>
+</html>

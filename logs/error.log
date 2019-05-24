@@ -1,0 +1,77 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon May 20 20:35:07.053299 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon May 20 20:35:07.053357 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon May 20 20:41:51.794607 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon May 20 20:42:07.557969 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon May 20 20:42:07.559865 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon May 20 20:43:05.127104 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon May 20 20:44:34.013719 2019] [mpm_prefork:notice] [pid 9] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon May 20 20:44:34.014752 2019] [core:notice] [pid 9] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon May 20 21:08:26.740844 2019] [mpm_prefork:notice] [pid 9] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon May 20 21:08:59.119886 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Mon May 20 21:08:59.121335 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon May 20 21:15:21.096728 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Tue May 21 13:54:17.205631 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Tue May 21 13:54:17.206366 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Tue May 21 20:21:55.026905 2019] [core:warn] [pid 8] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 21 20:21:55.031197 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Tue May 21 20:21:55.032058 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed May 22 16:04:22.208981 2019] [php7:notice] [pid 13] [client 172.23.0.1:41514] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 59, referer: http://localhost:9001/signup
+[Wed May 22 16:04:22.209777 2019] [php7:notice] [pid 13] [client 172.23.0.1:41514] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 63, referer: http://localhost:9001/signup
+[Wed May 22 16:26:13.242854 2019] [php7:notice] [pid 10] [client 172.23.0.1:41630] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 72, referer: http://localhost:9001/signup
+[Wed May 22 16:26:13.243296 2019] [php7:notice] [pid 10] [client 172.23.0.1:41630] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 76, referer: http://localhost:9001/signup
+[Wed May 22 16:27:46.310905 2019] [php7:notice] [pid 10] [client 172.23.0.1:41666] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 73, referer: http://localhost:9001/signup
+[Wed May 22 16:27:46.311522 2019] [php7:notice] [pid 10] [client 172.23.0.1:41666] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 77, referer: http://localhost:9001/signup
+[Wed May 22 17:43:33.823079 2019] [php7:notice] [pid 10] [client 172.23.0.1:41842] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 46, referer: http://localhost:9001/signup
+[Wed May 22 17:43:33.823685 2019] [php7:notice] [pid 10] [client 172.23.0.1:41842] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 50, referer: http://localhost:9001/signup
+[Wed May 22 18:52:08.693123 2019] [php7:notice] [pid 13] [client 172.23.0.1:42080] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 44, referer: http://localhost:9001/signup
+[Wed May 22 18:52:08.693702 2019] [php7:notice] [pid 13] [client 172.23.0.1:42080] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 48, referer: http://localhost:9001/signup
+[Thu May 23 10:58:18.090120 2019] [php7:notice] [pid 11] [client 172.23.0.1:42260] PHP Notice:  Array to string conversion in /var/www/html/vendor/twig/twig/src/Environment.php(418) : eval()'d code on line 60, referer: http://localhost:9001/login
+[Thu May 23 10:58:42.822694 2019] [php7:notice] [pid 12] [client 172.23.0.1:42268] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/src/Classes/User.php on line 39, referer: http://localhost:9001/login
+[Thu May 23 10:58:48.995640 2019] [php7:notice] [pid 12] [client 172.23.0.1:42268] PHP Notice:  Trying to get property 'ID' of non-object in /var/www/html/src/Classes/User.php on line 39, referer: http://localhost:9001/login
+[Thu May 23 11:21:51.928891 2019] [php7:notice] [pid 12] [client 172.23.0.1:42470] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 79, referer: http://localhost:9001/signup
+[Thu May 23 11:21:52.005512 2019] [php7:notice] [pid 12] [client 172.23.0.1:42470] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 83, referer: http://localhost:9001/signup
+[Thu May 23 11:47:55.720364 2019] [php7:notice] [pid 12] [client 172.23.0.1:42614] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 78, referer: http://localhost:9001/signup
+[Thu May 23 11:47:55.798358 2019] [php7:notice] [pid 12] [client 172.23.0.1:42614] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 82, referer: http://localhost:9001/signup
+[Thu May 23 15:34:29.980703 2019] [php7:notice] [pid 11] [client 172.23.0.1:42724] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 83, referer: http://localhost:9001/signup
+[Thu May 23 16:07:07.650656 2019] [php7:notice] [pid 14] [client 172.23.0.1:42846] PHP Notice:  Undefined index: old in /var/www/html/src/routes.php on line 19, referer: http://localhost:9001/login
+[Thu May 23 16:58:14.396129 2019] [php7:notice] [pid 9] [client 172.23.0.1:43052] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 83, referer: http://localhost:9001/signup
+[Thu May 23 18:00:11.809713 2019] [php7:notice] [pid 11] [client 172.23.0.1:43494] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 83, referer: http://localhost:9001/user/signup
+[Thu May 23 22:33:02.751752 2019] [php7:notice] [pid 10] [client 172.23.0.1:44186] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 99, referer: http://localhost:9001/user/signup
+[Thu May 23 22:43:08.196964 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu May 23 22:44:24.568942 2019] [mpm_prefork:notice] [pid 10] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu May 23 22:44:24.569563 2019] [core:notice] [pid 10] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu May 23 22:46:50.192356 2019] [mpm_prefork:notice] [pid 10] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu May 23 22:47:03.874438 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu May 23 22:47:03.875342 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu May 23 22:48:26.097899 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu May 23 22:48:30.523766 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu May 23 22:48:30.524361 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu May 23 22:48:48.286983 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu May 23 22:49:00.866967 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu May 23 22:49:00.867565 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu May 23 22:49:23.675642 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu May 23 22:49:43.873230 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu May 23 22:49:43.873887 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu May 23 22:50:07.543784 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu May 23 22:50:12.034662 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu May 23 22:50:12.035359 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu May 23 22:52:17.565114 2019] [php7:notice] [pid 10] [client 172.23.0.1:44616] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 99, referer: http://localhost:9001/user/signup
+[Thu May 23 22:54:42.742840 2019] [php7:notice] [pid 14] [client 172.23.0.1:44724] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 99, referer: http://localhost:9001/user/signup
+[Thu May 23 23:09:13.329622 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Fri May 24 12:52:21.375033 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Fri May 24 12:52:21.375544 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri May 24 13:20:05.993599 2019] [php7:notice] [pid 9] [client 172.23.0.1:45146] PHP Notice:  Only variables should be passed by reference in /var/www/html/src/Classes/User.php on line 99, referer: http://localhost:9001/user/signup
+[Fri May 24 17:56:41.988551 2019] [mpm_prefork:notice] [pid 8] AH00169: caught SIGTERM, shutting down
